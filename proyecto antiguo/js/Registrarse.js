@@ -31,17 +31,31 @@ $('#registro').submit(function(e){
         data: {opcn: 'registrar', email:email, name:name, password_codificado: password_codificado },
     })
     .done(function(data) {
-    
-        console.log("todo bien")
-        Swal.fire({
-          position: 'center',
-          icon: 'success',
-          title: 'Se a registrado el Ususario con exito',
-          showConfirmButton: false,
-          timer: 1500
-        })
-        window.location.href = 'iniciarSesion.html';
-    })
+      if (data.error) {
+          Swal.fire({
+              position: 'center',
+              icon: 'error',
+              title: data.message,
+              showConfirmButton: true,
+              timer: 150000
+          });
+      } else {
+          console.log("Registro exitoso");
+          Swal.fire({
+              position: 'center',
+              icon: 'success',
+              title: 'Se ha registrado el usuario con éxito',
+              showConfirmButton: false,
+              timer: 1500
+          });
+          window.location.href = 'iniciarSesion.html';
+      }
+  });
+  
+  
+
+  
+  
    
     
   })
