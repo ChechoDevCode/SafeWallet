@@ -1,0 +1,55 @@
+body{
+    background-color: #f6f6f6;
+}
+/* Navbar estilos */
+.nav-link{
+    font-size: 18px;
+}
+/* Estilos del carrusel */
+#carouselExampleCaptions{
+    height: 100vh;
+}
+.carousel-item img{
+    height: 100vh;
+    object-fit: cover;
+}
+/* Estilos nosotros */
+#nosotros{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+.card-columns{
+    margin: 25px;
+}
+.card img{
+    height: 60vh;
+    object-fit: cover;
+}
+/* Estilos formulario */
+#contacto{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+.container{
+    border-radius: 10px;
+    background-color: #51C9FF;
+    margin-bottom: 10px;
+}
+
+/* Footer estilos */
+.footer {
+    background-color: #010D82;
+    color: #fff;
+    padding: 20px 0;
+}  
+
+/* Mediaqueries */
+@media (max-width: 580px) {
+    .card-columns {
+      display: flex;
+      flex-direction: column;
+    }
+}
+  
