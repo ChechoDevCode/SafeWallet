@@ -13,7 +13,7 @@
   <body>
     <header>
       <!-- Navbar responsive -->
-      <nav class="navbar navbar-expand-sm navbar-light">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
           <a class="navbar-brand" href="/trabajoGrado/resources/views/vistaPrincipal.blade.php" style="font-weight: bold; font-size: 21px;">
           SafeWallet
               <img src="https://drive.google.com/uc?export=download&id=1T_Ij0N4tRasv2BlktHlVrzc1iUKx2vIX" alt="Logo" width="30" height="30" class="mr-2">
@@ -35,13 +35,12 @@
                       <a class="nav-link" href="#contacto">Contactanos</a>
                   </li>
               </ul>
-              
               <ul class="navbar-nav"> <!-- Añadir dos botones para iniciar sesión y registrarse -->
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Iniciar Sesión</a>
+                      <a class="nav-link" href="./vistaLogin.blade.php">Iniciar Sesión</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Registrarse</a>
+                      <a class="nav-link" href="./vistaRegistrar.blade.php">Registrarse</a>
                   </li>
               </ul>
           </div>
@@ -95,50 +94,24 @@
           <img class="card-img-top" src="https://drive.google.com/uc?export=download&id=1A6Yr0WLj8_FPOvqxkv3SQhkUwHHLoRWY" alt="">
           <div class="card-body">
             <h4 class="card-title" style="text-align: justify;">Nicolas Vargas</h4>
-            <p class="card-text">Nicolas Vargas estudiante de la Universidad Católica de Colombia de la carrera de Ingeniería de Sistemas y Computación, pensó que podía ayudar a los estudiantes y comerciantes del sector a mejorar sus finanzas personales ya que veia una problematica en crecimiento y que sabia que él podía solucionar.</p>
+            <p class="card-text">Nicolas Vargas estudiante de la Universidad Católica de Colombia de la carrera de Ingeniería de Sistemas y Computación, desde temprana edad le fascinaron los avances tecnológicos y cómo estos pueden transformar el mundo que nos rodea, cree firmemente en el poder de la tecnología para abordar los desafíos de la actualidad, ya sea en la optimización de procesos, la creación de aplicaciones útiles o la garantía de la seguridad de los sistemas de información. Su objetivo principal es seguir explorando nuevas fronteras tecnológicas y contribuir a soluciones innovadoras que marquen la diferencia en nuestra sociedad.</p>
           </div>
         </div>
         <div class="card">
           <img class="card-img-top" src="https://drive.google.com/uc?export=download&id=1eV9HsI7ZKWM3_18nooiBKxlpJPmF0fwf" alt="">
           <div class="card-body">
             <h4 class="card-title">Sergio González</h4>
-            <p class="card-text" style="text-align: justify;">Sergio González estudiante de la Universidad Católica de Colombia de la carrera de Ingeniería de Sistemas y Computación, ayuda a su compañero a que este sueño sea posible, realizando encuestas por el sector recolectando información para el estudio y planificación de esta aplicación.</p>
+            <p class="card-text" style="text-align: justify;">Sergio González estudiante de la Universidad Católica de Colombia de la carrera de Ingeniería de Sistemas y Computación, comprometido a utilizar sus conocimientos y habilidades para contribuir a un futuro más inteligente y más conectado, cree que la tecnología es una herramienta que puede impulsar la innovación, mejorar la eficiencia y resolver problemas que parecían insolubles. Su objetivo es lograr que este prototipo pueda ser desarrollado para mejorar las finanzas personales de los jovenes y mejorar su calidad de vida.</p>
           </div>
         </div>
       </div>
 
       <!-- Formulario -->
       <h1 id="contacto">Contacto</h1>
-      
-      <!-- <form class="forms" method="POST">
-        <div class="form-row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Tú nombre *" require>
-          </div>
-          <div class="col">
-            <input type="email" class="form-control" placeholder="Tú correo *" require>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="col">
-            <input type="tel" class="form-control" placeholder="Teléfono" require>
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Educación / Profesión (opcional)">
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Tú mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="text-center">
-          <button type="submit" class="btn btn-primary mb-2">Enviar</button>
-        </div>
-      </form> -->
       <div class="container">
         <div class="row">
             <div class="col-md-6 offset-md-3">
-                <form>
+                <form style="margin: 10px;">
                     <div class="form-group">
                         <label for="nombre">Nombre</label>
                         <input type="text" class="form-control" id="nombre" placeholder="Tu Nombre" required>
@@ -159,27 +132,21 @@
                         <label for="mensaje">Mensaje</label>
                         <textarea class="form-control" id="mensaje" rows="5" placeholder="Tu Mensaje" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-block" style="margin-bottom: 20px;">Enviar</button>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar</button>
                 </form>
             </div>
         </div>
     </div>
     </main>
-    <footer>
-      <div class="container">
+    <footer class="bg-primary">
+    <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6">
-            <a class="navbar-brand" href="/trabajoGrado/resources/views/vistaPrincipal.blade.php" style="font-weight: bold; font-size: 21px;">
-            SafeWallet
-              <img src="https://drive.google.com/uc?export=download&id=1T_Ij0N4tRasv2BlktHlVrzc1iUKx2vIX" alt="Logo" width="30" height="30" class="mr-2">
-            </a>
-          </div>
-          <div class="col-md-6" style="font-size: 20px;">
-            © 2023. SafeWallet
-          </div>
+            <div class="col text-center text-light">
+                <p>&copy; 2023 SafeWallet. Todos los derechos reservados.</p>
+            </div>
         </div>
-      </div>
-    </footer>
+    </div>
+</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

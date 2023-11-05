@@ -1,5 +1,5 @@
 body{
-    background-color: #f6f6f6;
+    background-color: #eee;
 }
 /* Navbar estilos */
 .nav-link{
@@ -35,15 +35,9 @@ body{
 .container{
     border-radius: 10px;
     background-color: #51C9FF;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    max-width: 800px;
 }
-
-/* Footer estilos */
-.footer {
-    background-color: #010D82;
-    color: #fff;
-    padding: 20px 0;
-}  
 
 /* Mediaqueries */
 @media (max-width: 580px) {
@@ -52,4 +46,3 @@ body{
       flex-direction: column;
     }
 }
-  
