@@ -56,24 +56,24 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://images.pexels.com/photos/17681378/pexels-photo-17681378/free-photo-of-mujer-ordenador-portatil-trabajando-sentado.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+            <img src="https://drive.google.com/uc?export=download&id=1W1W97J-0LwkJ3nNCzwmg4sH7JsmLuzfe" class="d-block w-100" alt="safewallet web">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Control de gastos</h5>
+              <p>Interactua y controla tus gastos personales.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="https://images.pexels.com/photos/15372903/pexels-photo-15372903/free-photo-of-escritorio-tecnologia-ordenado-teclado-mecanico.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+            <img src="https://drive.google.com/uc?export=download&id=1U2w0JTc6kK4DLZrltzSm-GikN7BtbN4D" class="d-block w-100" alt="safe wallet web">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Crea tus proyectos</h5>
+              <p>Crea proyectos que sirvan como objetivo.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="https://images.pexels.com/photos/17492110/pexels-photo-17492110/free-photo-of-hombre-niebla-conexion-tecnologia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+            <img src="https://drive.google.com/uc?export=download&id=1IQIS9RhirlDv57oNPC61yHyYEZ--OJLx" class="d-block w-100" alt="safewallet web">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Tips y recomendaciones</h5>
+              <p>Accede a tips básicos para mejorar tus finanzas personales.</p>
             </div>
           </div>
         </div>
@@ -108,6 +108,7 @@
 
       <!-- Formulario -->
       <h1 id="contacto">Contacto</h1>
+      <p class="py-2 m-3" style="text-align: center; font-size: 18px;">Necesitas más información?<br> Rellena este formulario para poder contactarnos contigo y brindarte asesoría.</p>
       <div class="container">
         <div class="row">
             <div class="col-md-6 offset-md-3">

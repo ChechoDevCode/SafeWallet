@@ -78,9 +78,9 @@
          <div class="col-xl-6 col-lg-6">
              <div class="card l-bg-cherry">
                  <div class="card-statistic-3 p-4">
-                     <div class="card-icon card-icon-large"><i class="fas fa-shopping-cart"></i></div>
+                     <div class="card-icon card-icon-large"><i class="fas fa-dollar-sign"></i></div>
                      <div class="mb-4">
-                         <h5 class="card-title mb-0">Progreso</h5>
+                         <h5 class="card-title mb-0">Ingresos</h5>
                      </div>
                      <div class="row align-items-center mb-2 d-flex">
                          <div class="col-8">
@@ -103,7 +103,7 @@
                  <div class="card-statistic-3 p-4">
                      <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
                      <div class="mb-4">
-                         <h5 class="card-title mb-0">Servicios</h5>
+                         <h5 class="card-title mb-0">Gastos fijos</h5>
                      </div>
                      <div class="row align-items-center mb-2 d-flex">
                          <div class="col-8">
@@ -126,7 +126,7 @@
                  <div class="card-statistic-3 p-4">
                      <div class="card-icon card-icon-large"><i class="fas fa-ticket-alt"></i></div>
                      <div class="mb-4">
-                         <h5 class="card-title mb-0">Comida</h5>
+                         <h5 class="card-title mb-0">Libre</h5>
                      </div>
                      <div class="row align-items-center mb-2 d-flex">
                          <div class="col-8">

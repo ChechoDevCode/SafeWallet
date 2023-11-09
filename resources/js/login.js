@@ -20,7 +20,7 @@ $('#Login').submit(function(e) {
         success: function(respuesta) {
             console.log(respuesta.mensaje);
             if (!respuesta.error) {
-                window.location.href = 'vistaRegistrar.blade.php';
+                window.location.href = 'vistaPanelControl.blade.php';
             } else {
                 Swal.fire({
                     position: 'center',

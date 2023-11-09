@@ -30,6 +30,10 @@ body{
     max-width: 35px !important;
 }
 
+#paragraph{
+    text-align: center;
+}
+
 #content{
     overflow-y: auto;
     height: 90vh;
