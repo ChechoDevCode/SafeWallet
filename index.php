@@ -1,3 +1,3 @@
 <?php 
-header('location: resources/views');
+header('location: resources/views/index.blade.php');
 ?>
