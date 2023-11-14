@@ -1,4 +1,6 @@
 <?php include("../layouts/Header.php"); ?> 
+<?php include("../src/seguridad.php"); ?> 
+
     <main>
       <!-- Carrousel -->
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">

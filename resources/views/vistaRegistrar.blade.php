@@ -26,38 +26,38 @@
                     <h4 class="mt-1 mb-5 pb-1">SafeWallet</h4>
                   </div>
 
-                  <form>
+                  <form id="registro">
                     <p>Porfavor cree su cuenta!</p>
 
                     <div class="form-outline mb-4">
-                      <label class="form-label" for="form2Example11">Nombre</label>
-                      <input type="email" id="form2Example11" class="form-control"
+                      <label class="form-label" for="Nombre">Nombre</label>
+                      <input type="text" id="Nombre" class="form-control"
                         placeholder="Su nombre" require/>
                     </div>
 
                     <div class="form-outline mb-4">
-                      <label class="form-label" for="form2Example11">Usuario</label>
-                      <input type="email" id="form2Example11" class="form-control"
+                      <label class="form-label" for="Usuario">Usuario</label>
+                      <input type="text" id="Usuario" class="form-control"
                         placeholder="Usuario" require/>
                     </div>
 
                     <div class="form-outline mb-4">
-                      <label class="form-label" for="form2Example22">Correo</label>
-                      <input type="email" id="form2Example11" class="form-control" placeholder="correo@example.com" require/>
+                      <label class="form-label" for="Correo">Correo</label>
+                      <input type="email" id="Correo" class="form-control" placeholder="correo@example.com" require/>
                     </div>
 
                     <div class="form-outline mb-4">
-                      <label class="form-label" for="form2Example22">Contraseña</label>
-                      <input type="password" id="form2Example22" class="form-control" placeholder="Contraseña" />
+                      <label class="form-label" for="Contraseña">Contraseña</label>
+                      <input type="password" id="Contraseña" class="form-control" placeholder="Contraseña" />
                     </div>
                     
                     <div class="form-outline mb-4">
-                      <label class="form-label" for="form2Example22">Repetir contraseña</label>
-                      <input type="password" id="form2Example22" class="form-control" placeholder="Repetir contraseña"/>
+                      <label class="form-label" for="Contraseña2">Repetir contraseña</label>
+                      <input type="password" id="Contraseña2" class="form-control" placeholder="Repetir contraseña"/>
                     </div>
 
                     <div class="text-center pt-1 mb-5 pb-1">
-                      <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Iniciar</button>
+                      <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit">Crear cuenta</button>
                     </div>
 
                   </form>
@@ -75,11 +75,24 @@
       </div>
     </div>
   </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- CDN JQUEY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- CDN POPER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- CDN bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+    <!-- CDN sweetalert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../js/Registrarse.js" type="text/javascript"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
