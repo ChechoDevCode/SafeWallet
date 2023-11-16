@@ -1,5 +1,4 @@
 <?php include("../layouts/Header.php"); ?> 
-<?php include("../src/seguridad.php"); ?> 
 
     <main>
       <!-- Carrousel -->
