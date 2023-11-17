@@ -1,3 +1,4 @@
+<?php include("../src/seguridad.php"); ?> 
 <!doctype html>
 <html lang="en">
   <head>
@@ -45,10 +46,10 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="./vistaPanelControl.blade.php">Dashboard</a>
                   <a class="dropdown-item" href="./vistaPerfil.blade.php">Mi perfil</a>
-                  <a class="dropdown-item" href="#">Mis proyectos</a>
+                  <a class="dropdown-item" href="./vistaProyectos.blade.php">Mis proyectos</a>
                   <a class="dropdown-item" href="./vistaTips.blade.php">Tips</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Cerrar sesión</a>
+                  <a class="dropdown-item" href="./index.blade.php">Cerrar sesión</a>
                 </div>
               </li>
             </ul>
