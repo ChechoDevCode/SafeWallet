@@ -55,6 +55,14 @@
                       <label class="form-label" for="Contraseña2">Repetir contraseña</label>
                       <input type="password" id="Contraseña2" class="form-control" placeholder="Repetir contraseña"/>
                     </div>
+                    <div class="form-outline mb-4">
+                      <label class="form-label" for="ingresos">Cuanto son tus ingresos mensuales?</label>
+                      <input type="password" id="ingresos" class="form-control" placeholder="Repetir contraseña"/>
+                    </div>
+                    <div class="form-outline mb-4">
+                      <label class="form-label" for="gastos">Cuanto suma tus gastos obligatios al mes</label>
+                      <input type="password" id="gastos" class="form-control" placeholder="Repetir contraseña"/>
+                    </div>
 
                     <div class="text-center pt-1 mb-5 pb-1">
                       <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit">Crear cuenta</button>

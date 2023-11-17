@@ -13,6 +13,9 @@ $(document).ready(function(){
        var Correo = $('#Correo').val();
        var Contraseña = $('#Contraseña').val();
        var Contraseña2 = $('#Contraseña2').val();
+       var ingresos = $('#ingresos').val();
+       var gastos = $('#gastos').val();
+
 
        if (Contraseña.length < 8) {
          console.log("La contraseña no es valida");
@@ -42,7 +45,8 @@ $(document).ready(function(){
          url: '../controlador/Registrarse.php',
          type: 'POST',
          dataType: 'json',
-         data: {opcn: 'registrar', Nombre:Nombre, Usuario:Usuario,Correo:Correo , password_codificado: password_codificado },
+         data: {opcn: 'registrar', Nombre:Nombre, Usuario:Usuario,Correo:Correo , password_codificado: password_codificado,
+         ingresos: ingresos,gastos: gastos },
      })
      .done(function(data) {
        if (data.error) {

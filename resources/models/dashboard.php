@@ -7,7 +7,7 @@ class Info {
     session_start();
     $ID = $_SESSION['ID'];
     
-    $resultado = DB::query("SELECT nombre FROM usuarios WHERE ID = $ID");
+    $resultado = DB::query("SELECT * FROM usuarios WHERE ID = $ID");
     
     return $resultado; 
 }
