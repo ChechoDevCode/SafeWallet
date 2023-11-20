@@ -29,12 +29,11 @@
                         </div>
                         <div class="row align-items-center mb-2 d-flex">
                           <div class="col-8">
-                            <h2 class="d-flex align-items-center mb-0">
-                              3,243
+                            <h2 id="valor_ingresos" class="d-flex align-items-center mb-0">
                             </h2>
                           </div>
                           <div class="col-4 text-right">
-                            <span>12.5% <i class="fa fa-arrow-up"></i></span>
+                            <span>100% <i class="fa fa-arrow-up"></i></span>
                           </div>
                         </div>
                       </div>
@@ -50,12 +49,11 @@
                         </div>
                         <div class="row align-items-center mb-2 d-flex">
                           <div class="col-8">
-                            <h2 class="d-flex align-items-center mb-0">
-                              15.07k
+                            <h2 id="valor_gastos" class="d-flex align-items-center mb-0">
                             </h2>
                           </div>
                           <div class="col-4 text-right">
-                            <span>9.23% <i class="fa fa-arrow-up"></i></span>
+                            <span>50% <i class="fa fa-arrow-up"></i></span>
                           </div>
                         </div>
                       </div>
@@ -71,12 +69,11 @@
                         </div>
                         <div class="row align-items-center mb-2 d-flex">
                           <div class="col-8">
-                            <h2 class="d-flex align-items-center mb-0">
-                              578
+                            <h2 id="valor_libre" class="d-flex align-items-center mb-0">
                             </h2>
                           </div>
                           <div class="col-4 text-right">
-                              <span>10% <i class="fa fa-arrow-up"></i></span>
+                              <span>30% <i class="fa fa-arrow-up"></i></span>
                           </div>
                         </div>
                       </div>
@@ -92,12 +89,11 @@
                         </div>
                         <div class="row align-items-center mb-2 d-flex">
                           <div class="col-8">
-                            <h2 class="d-flex align-items-center mb-0">
-                              $11.61k
+                            <h2 id="valor_ahorro" class="d-flex align-items-center mb-0">
                             </h2>
                           </div>
                           <div class="col-4 text-right">
-                            <span>2.5% <i class="fa fa-arrow-up"></i></span>
+                            <span>20% <i class="fa fa-arrow-up"></i></span>
                           </div>
                         </div>
                       </div>
@@ -120,8 +116,7 @@
                         </div>
                         <div class="row align-items-center mb-2 d-flex">
                           <div class="col-8">
-                            <h2 class="d-flex align-items-center mb-0">
-                              3,243
+                            <h2 id="valor_ingresosR" class="d-flex align-items-center mb-0">
                             </h2>
                           </div>
                           <div class="col-4 text-right">
@@ -141,8 +136,7 @@
                         </div>
                         <div class="row align-items-center mb-2 d-flex">
                           <div class="col-8">
-                            <h2 class="d-flex align-items-center mb-0">
-                              15.07k
+                            <h2 id="valor_gastosR" class="d-flex align-items-center mb-0">
                             </h2>
                           </div>
                           <div class="col-4 text-right">
@@ -162,8 +156,7 @@
                         </div>
                         <div class="row align-items-center mb-2 d-flex">
                           <div class="col-8">
-                            <h2 class="d-flex align-items-center mb-0">
-                              578
+                            <h2 id="valor_libreR" class="d-flex align-items-center mb-0">
                             </h2>
                           </div>
                           <div class="col-4 text-right">
@@ -183,8 +176,7 @@
                         </div>
                         <div class="row align-items-center mb-2 d-flex">
                           <div class="col-8">
-                            <h2 class="d-flex align-items-center mb-0">
-                              $11.61k
+                            <h2 id="valor_ahorroR" class="d-flex align-items-center mb-0">
                             </h2>
                           </div>
                           <div class="col-4 text-right">
