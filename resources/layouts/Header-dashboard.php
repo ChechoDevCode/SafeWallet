@@ -23,6 +23,7 @@
           <a href="./vistaPanelControl.blade.php" class="d-block text-light p-3"><i class="icon ion-md-apps mr-2 lead"></i> Dashboard</a>
           <a href="./vistaPerfil.blade.php" class="d-block text-light p-3"><i class="icon ion-md-contact mr-2 lead"></i> Perfil</a>
           <a href="./vistaProyectos.blade.php" class="d-block text-light p-3"><i class="icon ion-md-briefcase mr-2 lead"></i> Proyectos</a>
+          <a href="./vistaGastos.blade.php" class="d-block text-light p-3"><i class="icon ion-md-cash mr-2 lead"></i> Gastos</a>
           <a href="./vistaTips.blade.php" class="d-block text-light p-3"><i class="icon ion-md-bulb mr-2 lead"></i> Tips</a>
           <a href="#" class="d-block text-light p-3"><i class="icon ion-md-exit mr-2 lead"></i> Salir</a>
         </div>
@@ -47,9 +48,10 @@
                   <a class="dropdown-item" href="./vistaPanelControl.blade.php">Dashboard</a>
                   <a class="dropdown-item" href="./vistaPerfil.blade.php">Mi perfil</a>
                   <a class="dropdown-item" href="./vistaProyectos.blade.php">Mis proyectos</a>
+                  <a class="dropdown-item" href="./vistaGastos.blade.php">Mis Gastos</a>
                   <a class="dropdown-item" href="./vistaTips.blade.php">Tips</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="./index.blade.php">Cerrar sesión</a>
+                  <a class="dropdown-item" href="">Cerrar sesión</a>
                 </div>
               </li>
             </ul>

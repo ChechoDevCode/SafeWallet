@@ -1,0 +1,8 @@
+.contentTable{
+    height: 5em;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    border: 1px solid;
+}
