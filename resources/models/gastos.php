@@ -12,49 +12,36 @@ class Gastos {
     }
 
     public static function crear($v){
-        include_once('../../config/init_db.php');
+        include_once('../config/init_db.php');
+        session_start();
+        $ID = $_SESSION['ID'];
         DB::$encoding = 'utf8';
-        $correoExistente = DB::queryFirstField("SELECT correo FROM ludus_clientes WHERE documento = %s", $v['identificacion']);
-
-    if ($correoExistente) {
-        // Ya existe un usuario con ese correo, devuelve un mensaje de error
-        return array('error' => 'Ya existe un CLiente con este documento de indetidad.');
-    }
-       $insert = DB::query("INSERT INTO ludus_clientes
+       $insert = DB::query("INSERT INTO gastos
        (
-                                        nombre,
-                                        apellido,
-                                        tip_documento,
-                                        documento,
-                                        telefono,
-                                        correo,
-                                        direccion,
-                                        ciudad
-                                        
+                                        user_id,
+                                        info,
+                                        valor,
+                                        fecha   
                                     )
                                     VALUES(
-                                        '{$v['nombres']}',
-                                        '{$v['apellidos']}',
-                                        '{$v['tipo_identificacion']}',
-                                        '{$v['identificacion']}',
-                                        '{$v['telefono']}',
-                                        '{$v['email']}',
-                                        '{$v['direccion']}',
-                                        '{$v['ciudad']}'
+                                        $ID,
+                                        '{$v['descripcionGasto']}',
+                                        '{$v['valorGasto']}',
+                                        NOW()
 
                                     )");
         return $insert;
     }
 
     public static function verXid($v){
-        include_once('../../config/init_db.php');
+        include_once('../config/init_db.php');
         DB::$encoding = 'utf8';
         $resultado = DB::queryFirstRow("SELECT * FROM `ludus_clientes` WHERE cliente_id  = '{$v['id']}'");
         return $resultado;
     }
 
     public static function update($v){
-        include_once('../../config/init_db.php');
+        include_once('../config/init_db.php');
         DB::$encoding = 'utf8';
        $update = DB::query("UPDATE
                                 ludus_clientes

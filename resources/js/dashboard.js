@@ -18,6 +18,7 @@ function cargarinfo() {
         var libres = data[0].ingresos * 0.30
         var ahorros = data[0].ingresos * 0.20
         $('#nombre_usuario').text(mensajeBienvenido);
+        $('#navbarDropdown').text(data[0].nombre);
         $('#valor_ingresos').text('$'+data[0].ingresos);
         $('#valor_gastos').text('$'+gastos);
         $('#valor_libre').text('$'+libres);
