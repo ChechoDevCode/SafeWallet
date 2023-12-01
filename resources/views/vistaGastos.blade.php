@@ -19,12 +19,17 @@
 
   <div id="contain">
     <h2 class="text-analitycs py-2">Mis gastos</h2>
+    <h4 id="restante" class="color-text font-weight-bold mb-0"></h4>
+    <br>
+
     <!-- Botones -->
-    <div id="filtroFecha">
-      <label for="filtroMesAno">Filtrar por Fecha (Año y Mes):</label>
-      <input type="month" class="form-control" id="filtroMesAno">
-      <button type="button" class="btn btn-primary" id="btnFiltrar">Filtrar</button>
+    <div id="filtroFecha" class="text-center">
+    <label for="filtroMesAno" class="form-label">Filtrar por Fecha (Año y Mes):</label>
+    <div class="d-inline-flex">
+        <input type="month" class="form-control form-control-sm" id="filtroMesAno">
+        <button type="button" class="btn btn-primary btn-sm" id="btnFiltrar">Filtrar</button>
     </div>
+</div>
     <div class="buttons">
       <button type="button" class="btn btn-primary" id="crear" style="margin-bottom: 20px;" data-toggle="modal" data-target="#modalAgregarReserva">
         <i class="fas fa-plus"></i> Nueva Reserva
