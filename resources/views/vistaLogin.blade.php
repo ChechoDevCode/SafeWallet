@@ -50,7 +50,7 @@
 
                     <div class="d-flex flex-column align-items-center justify-content-center pb-4">
                       <p class="mb-0 me-2">Aún no tienes una cuenta?</p>
-                      <a href="vistaRegistrar.blade.php" class="btn btn-outline-danger">Crear ahora</a>
+                      <a href="./vistaRegistrar.blade.php" class="btn btn-outline-danger">Crear ahora</a>
                     </div>
 
                   </form>

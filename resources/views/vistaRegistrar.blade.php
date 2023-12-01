@@ -57,11 +57,11 @@
                       <input type="password" id="Contraseña2" class="form-control" placeholder="Repetir contraseña"/>
                     </div>
                     <div class="form-outline mb-4">
-                      <label class="form-label" for="ingresos">Cuanto son tus ingresos mensuales?</label>
+                      <label class="form-label" for="ingresos">Cuántos son tus ingresos mensuales?</label>
                       <input type="password" id="ingresos" class="form-control" placeholder="Repetir contraseña"/>
                     </div>
                     <div class="form-outline mb-4">
-                      <label class="form-label" for="gastos">Cuanto suma tus gastos obligatios al mes</label>
+                      <label class="form-label" for="gastos">Cuántos son tus gastos obligatorios al mes?</label>
                       <input type="password" id="gastos" class="form-control" placeholder="Repetir contraseña"/>
                     </div>
 

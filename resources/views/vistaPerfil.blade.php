@@ -1,5 +1,5 @@
 <?php include("../src/seguridad.php"); ?> 
-<?php include("../layouts/Header-dashboard.php"); ?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,34 +16,35 @@
   </head>
   <body>
 
+  <?php include("../layouts/Header-dashboard.php"); ?>
+
       <div id="content">
         <section>
           <div class="container">
             <div class="container rounded bg-white mt-5 mb-5 perfil-container">
               <div class="row">
                 <div class="col-md-4 border-right">
-                    <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"><span class="font-weight-bold">Edogaru</span><span class="text-black-50">edogaru@mail.com.my</span><span> </span></div>
+                    <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"><span class="font-weight-bold">Nombre del correo</span><span class="text-black-50">edogaru@mail.com.my</span><span> </span></div>
                 </div>
                 <div class="col-md-5 border-right">
                   <div class="p-3 py-5">
                     <div class="d-flex justify-content-between align-items-center mb-3">
-                      <h4 class="text-right">Profile Settings</h4>
+                      <h4 class="text-right">Configutación del perfil</h4>
                     </div>
                     <div class="row mt-2">
-                      <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control" placeholder="first name" value=""></div>
-                      <div class="col-md-6"><label class="labels">Surname</label><input type="text" class="form-control" value="" placeholder="surname"></div>
+                      <div class="col-md-6"><label class="labels">Nombre</label><input type="text" class="form-control" placeholder="Nombre" value=""></div>
+                      <div class="col-md-6"><label class="labels">Usuario</label><input type="text" class="form-control" value="" placeholder="Usuario"></div>
                     </div>
                     <div class="row mt-3">
-                      <div class="col-md-12"><label class="labels">Mobile Number</label><input type="text" class="form-control" placeholder="enter phone number" value=""></div>
-                      <div class="col-md-12"><label class="labels">Address Line 1</label><input type="text" class="form-control" placeholder="enter address line 1" value=""></div>
-                      <div class="col-md-12"><label class="labels">Address Line 2</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
-                      <div class="col-md-12"><label class="labels">Address Line 2</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
+                      <div class="col-md-12"><label class="labels">Correo</label><input type="text" class="form-control" placeholder="ejemplo@gmail.com" value=""></div>
+                      <div class="col-md-12"><label class="labels">Contraseña</label><input type="text" class="form-control" placeholder="***************" value=""></div>
+                      <div class="col-md-12"><label class="labels">Repetir contraseña</label><input type="text" class="form-control" placeholder="***************" value=""></div>
                     </div>
                     <div class="row mt-3">
-                      <div class="col-md-6"><label class="labels">Country</label><input type="text" class="form-control" placeholder="country" value=""></div>
-                      <div class="col-md-6"><label class="labels">State/Region</label><input type="text" class="form-control" value="" placeholder="state"></div>
+                      <div class="col-md-6"><label class="labels">Cuántos son tus ingresos mensuales?</label><input type="text" class="form-control" value="" placeholder="$ 2.000.000"></div>
+                      <div class="col-md-6"><label class="labels">Cuántos son tus gastos obligatorios al mes?</label><input type="text" class="form-control" placeholder="$ 500.000" value=""></div>
                     </div>
-                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Save Profile</button></div>
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Guardar</button></div>
                   </div>
                 </div>
               </div>

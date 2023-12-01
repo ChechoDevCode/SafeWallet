@@ -1,5 +1,5 @@
 <?php include("../src/seguridad.php"); ?> 
-<?php include("../layouts/Header-dashboard.php"); ?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -15,6 +15,8 @@
   </head>
   <body>
     
+  <?php include("../layouts/Header-dashboard.php"); ?>
+  
             <div id="content">
             <h2 class="text-analitycs">Proyectos</h2>
               <section class="py-3">
