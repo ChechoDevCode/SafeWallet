@@ -37,7 +37,7 @@
 </div>
     <div class="buttons">
       <button type="button" class="btn btn-primary" id="crear" style="margin-bottom: 20px;" data-toggle="modal" data-target="#modalAgregarReserva">
-        <i class="fas fa-plus"></i> Nueva Reserva
+        <i class="fas fa-plus"></i> Nueva Gasto
       </button>
     </div>
     <!-- Tabla -->
