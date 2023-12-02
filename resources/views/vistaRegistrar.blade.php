@@ -1,4 +1,4 @@
-<?php include("../src/seguridad.php"); ?> 
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -58,11 +58,11 @@
                     </div>
                     <div class="form-outline mb-4">
                       <label class="form-label" for="ingresos">Cuántos son tus ingresos mensuales?</label>
-                      <input type="password" id="ingresos" class="form-control" placeholder="Repetir contraseña"/>
+                      <input type="text" id="ingresos" class="form-control" placeholder="$ 100000"/>
                     </div>
                     <div class="form-outline mb-4">
                       <label class="form-label" for="gastos">Cuántos son tus gastos obligatorios al mes?</label>
-                      <input type="password" id="gastos" class="form-control" placeholder="Repetir contraseña"/>
+                      <input type="text" id="gastos" class="form-control" placeholder="$ 500000"/>
                     </div>
 
                     <div class="text-center pt-1 mb-5 pb-1">

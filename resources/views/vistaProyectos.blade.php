@@ -21,6 +21,10 @@
 
   <div id="content">
     <h2 class="text-analitycs">Proyectos</h2>
+    <p class="lead p-4">
+      Le recomendamos utilizar nuestro simulador financiero, donde podrá realizar una simulación detallada de préstamos. Haga clic a continuación para acceder a la calculadora y planificar sus opciones financieras de manera precisa.
+      <a href="./calculadoraPrestamo.blade.php" class="btn btn-primary btn-sm">Acceder al Simulador</a>
+    </p>
     <section class="py-3">
       <div class="container">
       <div class="buttons">
@@ -45,83 +49,7 @@
               </thead>
               <tbody>
                 <tr>
-                  <td scope="row">Pagar alquiler</td>
-                  <td data-label="Fecha Inicio">10/05/2023</td>
-                  <td data-label="Fecha Fin">19/05/2023</td>
-                  <td data-label="Tipo">Ahorro</td>
-                  <td data-label="Estado">Activo</td>
-                  <td data-label="Acciones">Botones</td>
-                </tr>
-                <tr>
-                  <td scope="row">Ropa</td>
-                  <td data-label="Fecha Inicio">10/05/2023</td>
-                  <td data-label="Fecha Fin">19/05/2023</td>
-                  <td data-label="Tipo">Ahorro</td>
-                  <td data-label="Estado">Activo</td>
-                  <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
+                  
                 </tr>
               </tbody>
             </table>
