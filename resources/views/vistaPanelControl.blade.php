@@ -33,6 +33,10 @@
             </section>
             <section>
               <div class="container">
+              <p class="lead p-2">
+                ¿Te preguntas cómo identificar tus ingresos o gastos? Descubre valiosos tips y consejos que te guiarán. 
+                <a href="./vistaTips.blade.php" class="btn btn-primary btn-sm p-2">Consulta aquí</a>
+              </p>
                 <h2 class="text-analitycs">Esperado</h2>
                 <div class="row">
                   <!-- Card 1 -->

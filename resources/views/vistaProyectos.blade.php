@@ -21,6 +21,10 @@
 
   <div id="content">
     <h2 class="text-analitycs">Proyectos</h2>
+    <p class="lead p-4">
+      Le recomendamos utilizar nuestro simulador financiero, donde podrá realizar una simulación detallada de préstamos. Haga clic a continuación para acceder a la calculadora y planificar sus opciones financieras de manera precisa.
+      <a href="./calculadoraPrestamo.blade.php" class="btn btn-primary btn-sm">Acceder al Simulador</a>
+    </p>
     <section class="py-3">
       <div class="container">
         <div class="buttons">

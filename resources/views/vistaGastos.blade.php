@@ -24,7 +24,7 @@
 
   <div id="contain">
     <h2 class="text-analitycs py-2">Mis gastos</h2>
-    <h4 id="restante" class="color-text font-weight-bold mb-0"></h4>
+    <h4 id="restante" class="color-text font-weight-bold mb-0 p-4"></h4>
     <br>
 
     <!-- Botones -->
