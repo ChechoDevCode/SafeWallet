@@ -16,17 +16,25 @@ class Proyectos {
         session_start();
         $ID = $_SESSION['ID'];
         DB::$encoding = 'utf8';
-       $insert = DB::query("INSERT INTO gastos
+       $insert = DB::query("INSERT INTO proyectos
        (
-                                        user_id,
-                                        info,
-                                        valor,
-                                        fecha   
+                                        id_usuario,
+                                        objetivo,
+                                        costo,
+                                        interes_anual,
+                                        aporte_mensual,
+                                        categoria,
+                                        fecha_ini
+
                                     )
                                     VALUES(
                                         $ID,
                                         '{$v['descripcionGasto']}',
                                         '{$v['valorGasto']}',
+                                        '{$v['Interes']}',
+                                        '{$v['mensual']}',
+                                        '{$v['categoriaProyecto']}',
+
                                         NOW()
 
                                     )");

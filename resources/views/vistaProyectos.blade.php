@@ -23,11 +23,11 @@
     <h2 class="text-analitycs">Proyectos</h2>
     <section class="py-3">
       <div class="container">
-      <div class="buttons">
-      <button type="button" class="btn btn-primary" id="crear" style="margin-bottom: 20px;" data-toggle="modal" data-target="#modalAgregarReserva">
-        <i class="fas fa-plus"></i> Agregar Proyecto
-      </button>
-    </div>
+        <div class="buttons">
+          <button type="button" class="btn btn-primary" id="crear" style="margin-bottom: 20px;" data-toggle="modal" data-target="#modalAgregarReserva">
+            <i class="fas fa-plus"></i> Agregar Proyecto
+          </button>
+        </div>
         <div class="row d-flex justify-content-center">
           <div class="col-lg-12">
             <table id="tabla" class="table p-3 m-3">
@@ -44,85 +44,7 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td scope="row">Pagar alquiler</td>
-                  <td data-label="Fecha Inicio">10/05/2023</td>
-                  <td data-label="Fecha Fin">19/05/2023</td>
-                  <td data-label="Tipo">Ahorro</td>
-                  <td data-label="Estado">Activo</td>
-                  <td data-label="Acciones">Botones</td>
-                </tr>
-                <tr>
-                  <td scope="row">Ropa</td>
-                  <td data-label="Fecha Inicio">10/05/2023</td>
-                  <td data-label="Fecha Fin">19/05/2023</td>
-                  <td data-label="Tipo">Ahorro</td>
-                  <td data-label="Estado">Activo</td>
-                  <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
-                <td scope="row">Servicios</td>
-                <td data-label="Fecha Inicio">10/05/2023</td>
-                <td data-label="Fecha Fin">19/05/2023</td>
-                <td data-label="Tipo">Deuda</td>
-                <td data-label="Estado">Cumplido</td>
-                <td data-label="Acciones">Botones</td>
-                </tr>
+
               </tbody>
             </table>
           </div>
@@ -144,25 +66,46 @@
             <div class="modal-body">
               <!-- Espacio para la descripción del gasto -->
               <div class="form-group">
-                <label for="descripcionGasto">Descripción del Gasto:</label>
-                <input type="text" class="form-control" id="descripcionGasto" placeholder="Ingrese la descripción del gasto">
+                <label for="descripcionGasto">Descripción del Proyecto:</label>
+                <input type="text" class="form-control" id="descripcionGasto" placeholder="Ingrese la descripción">
               </div>
 
               <!-- Espacio para el valor del gasto -->
               <div class="form-group">
-                <label for="valorGasto">Valor del Gasto:</label>
-                <input type="number" class="form-control" id="valorGasto" placeholder="Ingrese el valor del gasto">
+                <label for="valorGasto">Costo:</label>
+                <input type="text" class="form-control" id="valorGasto" placeholder="Ingrese el valor">
               </div>
+            
+
+            <div class="form-group">
+              <label for="valorGasto">Duracion (Meses):</label>
+              <input type="number" class="form-control" id="Duracion" placeholder="Duracion">
+            </div>
+            <div class="form-group">
+              <label for="categoriaProyecto">Categoría:</label>
+              <select class="form-control" id="categoriaProyecto">
+                <option value="prestamo">Préstamo</option>
+                <option value="ahorro">Ahorro</option>
+              </select>
             </div>
 
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-              <button type="submit" class="btn btn-primary" id="guardarReserva">Guardar</button>
+            <div class="form-group">
+              <label for="valorGasto">Interes:</label>
+              <input type="text" class="form-control" id="Interes" placeholder="Solo si es de tipo prestamo">
             </div>
-          </form>
         </div>
+
       </div>
+
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-primary" id="guardarReserva">Guardar</button>
+      </div>
+      </form>
     </div>
+  </div>
+  </div>
   </div>
 
   </div>

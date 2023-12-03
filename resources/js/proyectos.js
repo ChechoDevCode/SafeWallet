@@ -42,3 +42,63 @@ function listar() {
         })
 
 }
+
+$('#modCrearReserva').submit(function (e) {
+    e.preventDefault();
+    console.log("crear");
+    var mensual
+    var valorGasto = parseFloat($('#valorGasto').val());
+    var Interes = parseFloat($('#Interes').val());
+    var Duracion = parseFloat($('#Duracion').val());
+    var categoriaProyecto = parseFloat($('#categoriaProyecto').val());
+
+    if (categoriaProyecto == 'prestamo') {
+
+        console.log('llegas a prestamo')
+        var tasaMensual = (Interes / 100) / 12;
+
+        // Calcula la cuota mensual utilizando la fórmula de amortización
+        mensual = (valorGasto * tasaMensual) / (1 - Math.pow(1 + tasaMensual, -Duracion));
+        var valorGasto = cuota * Duracion;
+    } else {
+        mensual = valorGasto / Duracion
+    }
+
+
+
+
+
+    // Continúa con la solicitud AJAX si el usuario no quiere plantearlo como proyecto
+    var data = {
+        descripcionGasto: $('#descripcionGasto').val(),
+        valorGasto: valorGasto,
+        Duracion: $('#Duracion').val(),
+        categoriaProyecto: $('#categoriaProyecto').val(),
+        Interes: $('#Interes').val(),
+        mensual: mensual.toFixed(2),
+        opcn: 'crear'
+    };
+    console.log(data)
+    // Realiza una solicitud AJAX para enviar los datos al controlador
+    $.ajax({
+        url: '../controlador/proyectos.php',
+        type: 'POST',
+        data: data,
+        dataType: 'json',
+        success: function (response) {
+            if (response.error) {
+                alert(response.error);
+                return;
+            }
+
+            // Aquí puedes manejar la respuesta exitosa, como cerrar el modal, mostrar un mensaje, etc.
+            $('#modalAgregarReserva').modal('hide');
+            alert('Usuario creado con éxito');
+            listar();
+        },
+        error: function (xhr, status, error) {
+            // Maneja errores de la solicitud AJAX
+            console.log('Error en la solicitud AJAX: ' + error);
+        }
+    });
+});
