@@ -1,12 +1,41 @@
 $(document).ready(function () {
     console.log('gastos')
+    var gastos_mes
     var libres
     listar();
-    cargarinfo()
+    gastos_acu()
 
 });
 
-function cargarinfo() {
+function gastos_acu() {
+    let fechaActual = new Date();
+
+    // Obtener el año y el mes
+    let año = fechaActual.getFullYear();
+
+    // Obtener el mes (agregando un cero adelante si es necesario)
+    let mes = (fechaActual.getMonth() + 1).toString().padStart(2, '0');
+
+    // Formatear la fecha en el formato deseado
+    let fechaFormateada = `${año}-${mes}`;
+    $.ajax({
+        url: '../controlador/gastos.php',
+        type: 'POST',
+        data: { opcn: 'menos', fecha: fechaFormateada },
+        dataType: 'json'
+    })
+        .done(function (data) {
+
+            // Actualiza el contenido del elemento con id "nombre_usuario" con el mensaje
+            //cartas ideal
+            gastos_mes = data[0].total_valor
+            cargarinfo(gastos_mes)
+          
+        });
+
+}
+
+function cargarinfo(gastos_mes) {
     $.ajax({
         url: '../controlador/dashboard.php',
         type: 'POST',
@@ -15,15 +44,15 @@ function cargarinfo() {
     })
         .done(function (data) {
 
-            // Actualiza el contenido del elemento con id "nombre_usuario" con el mensaje
-            //cartas ideal
             libres = data[0].ingresos * 0.30
+            libres = libres - gastos_mes
             var mensajeBienvenido = 'Tu disponible para este mes es de: $' + libres;
 
             $('#restante').text(mensajeBienvenido);
         });
 
 }
+
 function listar() {
     // Obtener la fecha actual
     let fechaActual = new Date();
@@ -55,7 +84,7 @@ function listar() {
             <td>${el.valor}</td>
             <td>${el.fecha_normal}</td>
             <td>
-                    <button type="button" class="btn btn-primary btn-sm editar" data-id= "${el.gasto_id}">Editar</button>  
+                    <button type="button" class="btn btn-primary btn-sm editar" data-id= "${el.gasto_id}">Eliminar</button>  
             </td>
             </tr>`
             });

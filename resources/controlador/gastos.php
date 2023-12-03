@@ -16,12 +16,8 @@ switch ($method) {
                 $respuesta = Gastos::crear($_POST);
                 echo json_encode($respuesta);
                 break;
-            case 'verXid':
-                $respuesta = Gastos::verXid($_POST);
-                echo json_encode($respuesta);
-                break;
-            case 'update':
-                $respuesta = Gastos::update($_POST);
+            case 'menos':
+                $respuesta = Gastos::menos($_POST);
                 echo json_encode($respuesta);
                 break;
         }

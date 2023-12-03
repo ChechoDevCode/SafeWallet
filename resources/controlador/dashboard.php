@@ -8,5 +8,9 @@ switch ($method) {
                 $respuesta = Info::buscar_info();
                 echo json_encode($respuesta);
                 break;
+            case 'editar':
+                $respuesta = Info::update($_POST);
+                echo json_encode($respuesta);
+                break;
         }
 }

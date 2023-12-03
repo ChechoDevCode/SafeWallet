@@ -28,7 +28,7 @@ function listar() {
 
 
             <td>
-                    <button type="button" class="btn btn-primary btn-sm editar" data-id= "${el.gasto_id}">Editar</button>  
+                    <button type="button" class="btn btn-primary btn-sm editar" data-id= "${el.gasto_id}">Cancelar</button>  
             </td>
             </tr>`
             });
@@ -50,16 +50,16 @@ $('#modCrearReserva').submit(function (e) {
     var valorGasto = parseFloat($('#valorGasto').val());
     var Interes = parseFloat($('#Interes').val());
     var Duracion = parseFloat($('#Duracion').val());
-    var categoriaProyecto = parseFloat($('#categoriaProyecto').val());
+    var categoriaProyecto = $("#categoriaProyecto").val();
 
-    if (categoriaProyecto == 'prestamo') {
+    if (categoriaProyecto == "prestamo") {
 
         console.log('llegas a prestamo')
         var tasaMensual = (Interes / 100) / 12;
 
         // Calcula la cuota mensual utilizando la fórmula de amortización
         mensual = (valorGasto * tasaMensual) / (1 - Math.pow(1 + tasaMensual, -Duracion));
-        var valorGasto = cuota * Duracion;
+        var valorGasto = mensual * Duracion;
     } else {
         mensual = valorGasto / Duracion
     }
@@ -71,7 +71,7 @@ $('#modCrearReserva').submit(function (e) {
     // Continúa con la solicitud AJAX si el usuario no quiere plantearlo como proyecto
     var data = {
         descripcionGasto: $('#descripcionGasto').val(),
-        valorGasto: valorGasto,
+        valorGasto: valorGasto.toFixed(2),
         Duracion: $('#Duracion').val(),
         categoriaProyecto: $('#categoriaProyecto').val(),
         Interes: $('#Interes').val(),
