@@ -13,9 +13,21 @@
           <a href="./vistaGastos.blade.php" class="d-block text-light p-3"><i class="icon ion-md-cash mr-2 lead"></i> Gastos</a>
           <a href="./calculadoraPrestamo.blade.php" class="d-block text-light p-3"><i class="icon ion-md-calculator mr-2 lead"></i> Simulador</a>
           <a href="./vistaTips.blade.php" class="d-block text-light p-3"><i class="icon ion-md-bulb mr-2 lead"></i> Tips</a>
-          <a href="#" class="d-block text-light p-3"><i class="icon ion-md-exit mr-2 lead"></i> Salir</a>
+          <a href="#" onclick="confirmarSalir()" class="d-block text-light p-3"><i class="icon ion-md-exit mr-2 lead"></i> Salir</a>
         </div>
       </div>
+
+      <script>
+        function confirmarSalir() {
+          var confirmacion = confirm("¿Estás seguro de que quieres salir?");
+          if (confirmacion) {
+            window.location.href = "../src/logout.php";
+          } else {
+            // El usuario ha cancelado la salida, no hagas nada.
+          }
+        }
+      </script>
+
     <!-- Navbar responsive -->
       <div class="w-100">
         <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
@@ -40,7 +52,7 @@
                   <a class="dropdown-item" href="./calculadoraPrestamo.blade.php">Simulador</a>
                   <a class="dropdown-item" href="./vistaTips.blade.php">Tips</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="">Cerrar sesión</a>
+                  <a class="dropdown-item" href="#" onclick="confirmarSalir()">Cerrar sesión</a>
                 </div>
               </li>
             </ul>

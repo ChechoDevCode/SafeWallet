@@ -19,34 +19,208 @@
         <div id=content>
           <h1 class="text-analitycs">Tips y consejos</h1>
           <section>
-              <div class="container py-3">
-                <h2>Crea un presupuesto</h2>
-                <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
-                  <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
-                    <video class="embed-responsive-item w-100" controls>
-                      <source src="../Videos/TipsConsejos.mp4" type="video/mp4">
-                      Tu navegador no soporta el elemento de video.
-                  </div>
-              </div>
-              <div class="container py-3">
-                <h2>Crea un presupuesto</h2>
-                <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
-                  <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 950px; max-height: 500px;">    
-                    <video class="embed-responsive-item w-100" controls>
-                      <source src="../Videos/TipsConsejos.mp4" type="video/mp4">
-                      Tu navegador no soporta el elemento de video.
-                  </div>
-              </div>
-              <div class="container py-3">
-                <h2>Crea un presupuesto</h2>
-                <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
-                  <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 950px; max-height: 500px;">    
-                    <video class="embed-responsive-item w-100" controls>
-                      <source src="../Videos/TipsConsejos.mp4" type="video/mp4">
-                      Tu navegador no soporta el elemento de video.
-                  </div>
-              </div>
-         
+            <div class="container">
+              <h2 class="text-primary display-4">Gestión del dinero</h2>
+              <h3 class="py-3">Conoce tus ingresos y gastos</h3>
+              <p>Conocer tus ingresos y gastos es esencial para una gestión financiera efectiva.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/ingresosygastos.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">Crea un fondo de emergencia</h3>
+              <p>Este fondo actúa como un colchón financiero para cubrir gastos inesperados o emergencias.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/fondoEmergencia.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">Crea un presupuesto</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">Utiliza aplicaciones de control de gastos</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">¿Qué es flujo de caja?</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+          </section>
+            <div class="container">
+            <h2 class="text-primary display-4">Ahorro e Inversión</h2>
+              <h3 class="py-3">Ahorra</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">Invierte</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">¿Qué es rentabilidad?</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">¿Qué es la liquidez?</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">Crea metas financieras</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+          <section>
+            <div class="container">
+              <h2 class="text-primary display-4">Educación Financiera</h2>
+              <h3 class="py-3">Educate sobre finanzas personales</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">¿Qué son las tasas de interés?</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">¿Qué es un crédito?</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="container">
+              <h2 class="text-primary display-4">Planificación Financiera</h2>
+              <h3 class="py-3">Salda deudas</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">Empieza poco a poco</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">Crea metas financieras</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">Asesorate con un profesional</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="container">
+              <h2 class="text-primary display-4">Conceptos Financieros Básicos</h2>
+              <h3 class="py-3">¿Qué son los gastos hormiga?</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">¿Qué es el PIB?</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">¿Qué es la inflación?</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
+            <div class="container">
+              <h3 class="py-3">¿Qué es el patrimonio neto?</h3>
+              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
+                  <video class="embed-responsive-item w-100" controls>
+                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </div>
+            </div>
           </section>
         </div>
       </div>
