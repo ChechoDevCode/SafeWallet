@@ -93,7 +93,7 @@ $('#modCrearReserva').submit(function (e) {
 
             // Aquí puedes manejar la respuesta exitosa, como cerrar el modal, mostrar un mensaje, etc.
             $('#modalAgregarReserva').modal('hide');
-            alert('Usuario creado con éxito');
+            alert('Proyecto creado con éxito');
             listar();
         },
         error: function (xhr, status, error) {

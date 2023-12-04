@@ -26,7 +26,7 @@
                     <p class="lead text-muted">Revisar la última información</p>
                   </div>
                   <div class="col-lg-3 d-flex">
-                    <button class="btn btn-primary w-100 align-self-center">Descargar reporte</button>
+                    <button onclick="generatePdfBtn" class="btn btn-primary w-100 align-self-center">Descargar reporte</button>
                   </div>
                 </div>
               </div>
@@ -218,10 +218,13 @@
                     <canvas id="myChart"></canvas>
                   </div>
                 </div>
+                <div class="col-lg-6 my-3">
+                  <canvas id="myChart2"></canvas>
+                </div>       
+                <div class="col-lg-6 my-3">
+                  <canvas id="myChart3"></canvas>
+                </div>       
               </div>     
-              <div class="col-lg-6 my-3">
-                <canvas id="myChart"></canvas>
-              </div>       
             </section>
           </div>
         </div>
@@ -232,7 +235,7 @@
     <script src="../js/dashboard.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS  -->
-     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
      <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" integrity="sha256-R4pqc0YV8lt7snxMQ0/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script> 
@@ -243,11 +246,55 @@
       new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green'],
+        labels: ['Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
         datasets: [{
           label: 'Gastos por mes',
           backgroundColor: 'rgb(7, 27, 143)',
-          data: [12, 19, 3, 5],
+          data: [1, 1, 2, 5],
+          borderWidth: 1
+        }]
+      },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+
+      const ctx2 = document.getElementById('myChart2');
+
+      new Chart(ctx2, {
+      type: 'bar',
+      data: {
+        labels: ['Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+        datasets: [{
+          label: 'Proyectos por mes',
+          backgroundColor: 'rgb(7, 27, 143)',
+          data: [3, 2, 6, 4],
+          borderWidth: 1
+        }]
+      },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+
+      const ctx3 = document.getElementById('myChart3');
+
+      new Chart(ctx3, {
+      type: 'bar',
+      data: {
+        labels: ['Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+        datasets: [{
+          label: 'Tips vistos por mes',
+          backgroundColor: 'rgb(7, 27, 143)',
+          data: [1, 0, 6, 8],
           borderWidth: 1
         }]
       },

@@ -49,19 +49,19 @@
             </div>
             <div class="container">
               <h3 class="py-3">Utiliza aplicaciones de control de gastos</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+              <p>Estas aplicaciones están diseñadas para simplificar la gestión financiera personal y proporcionar una visión clara de cómo se gasta el dinero.</p>
                 <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
                   <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    <source src="../Videos/appControl.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </div>
             </div>
             <div class="container">
               <h3 class="py-3">¿Qué es flujo de caja?</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+              <p>Es una herramienta financiera fundamental que registra el movimiento de dinero dentro y fuera de una empresa o, en el ámbito personal, de un individuo.</p>
                 <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
                   <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    <source src="../Videos/flujoCaja.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </div>
             </div>
@@ -69,46 +69,28 @@
             <div class="container">
             <h2 class="text-primary display-4">Ahorro e Inversión</h2>
               <h3 class="py-3">Ahorra</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+              <p>Ahorrar dinero es un hábito financiero clave que contribuye a la estabilidad financiera y proporciona una red de seguridad en tiempos de necesidad.</p>
                 <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
                   <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    <source src="../Videos/ahorra.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </div>
             </div>
             <div class="container">
               <h3 class="py-3">Invierte</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+              <p>Invertir implica destinar dinero a activos con el objetivo de generar un retorno financiero en el futuro.</p>
                 <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
                   <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
-                    Tu navegador no soporta el elemento de video.
-                </div>
-            </div>
-            <div class="container">
-              <h3 class="py-3">¿Qué es rentabilidad?</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
-                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
-                  <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
-                    Tu navegador no soporta el elemento de video.
-                </div>
-            </div>
-            <div class="container">
-              <h3 class="py-3">¿Qué es la liquidez?</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
-                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
-                  <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    <source src="../Videos/invierte.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </div>
             </div>
             <div class="container">
               <h3 class="py-3">Crea metas financieras</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+              <p>Crear metas financieras es un paso fundamental para lograr una gestión efectiva de tus finanzas y alcanzar tus objetivos a largo plazo.</p>
                 <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
                   <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    <source src="../Videos/crearMetas.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </div>
             </div>
@@ -116,28 +98,19 @@
             <div class="container">
               <h2 class="text-primary display-4">Educación Financiera</h2>
               <h3 class="py-3">Educate sobre finanzas personales</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+              <p>Educarse sobre finanzas personales es fundamental para tomar decisiones informadas y construir una base financiera sólida.</p>
                 <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
                   <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
-                    Tu navegador no soporta el elemento de video.
-                </div>
-            </div>
-            <div class="container">
-              <h3 class="py-3">¿Qué son las tasas de interés?</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
-                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
-                  <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    <source src="../Videos/educateFinanzas.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </div>
             </div>
             <div class="container">
               <h3 class="py-3">¿Qué es un crédito?</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+              <p>Un crédito es una transacción financiera en la que una entidad, como un banco u otra institución financiera, presta dinero a un individuo o empresa con la expectativa de que se devolverá en el futuro.</p>
                 <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
                   <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    <source src="../Videos/credito.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </div>
             </div>
@@ -147,37 +120,28 @@
             <div class="container">
               <h2 class="text-primary display-4">Planificación Financiera</h2>
               <h3 class="py-3">Salda deudas</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+              <p>Una deuda es una obligación financiera que una persona o entidad tiene con otra para devolver una cantidad de dinero o recursos.</p>
                 <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
                   <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
-                    Tu navegador no soporta el elemento de video.
-                </div>
-            </div>
-            <div class="container">
-              <h3 class="py-3">Empieza poco a poco</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
-                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
-                  <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    <source src="../Videos/deudas.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </div>
             </div>
             <div class="container">
               <h3 class="py-3">Crea metas financieras</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+              <p>Crear metas financieras es un paso fundamental para lograr una gestión efectiva de tus finanzas y alcanzar tus objetivos a largo plazo.</p>
                 <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
                   <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    <source src="../Videos/crearMetas.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </div>
             </div>
             <div class="container">
               <h3 class="py-3">Asesorate con un profesional</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+              <p>Asesorarse con un profesional en temas financieros puede ser una decisión inteligente para obtener orientación personalizada y tomar decisiones informadas sobre tus finanzas.</p>
                 <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
                   <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    <source src="../Videos/asesorFinanciero.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </div>
             </div>
@@ -187,37 +151,19 @@
             <div class="container">
               <h2 class="text-primary display-4">Conceptos Financieros Básicos</h2>
               <h3 class="py-3">¿Qué son los gastos hormiga?</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+              <p>Los "gastos hormiga" se refieren a pequeños gastos cotidianos y aparentemente insignificantes que, sumados a lo largo del tiempo, pueden representar una porción significativa de tus gastos mensuales o anuales.</p>
                 <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
                   <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    <source src="../Videos/gastoHormiga.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </div>
             </div>
             <div class="container">
               <h3 class="py-3">¿Qué es el PIB?</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
+              <p>El Producto Interno Bruto (PIB) es una medida económica que representa el valor total de mercado de todos los bienes y servicios producidos dentro de las fronteras de un país durante un período de tiempo específico.</p>
                 <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
                   <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
-                    Tu navegador no soporta el elemento de video.
-                </div>
-            </div>
-            <div class="container">
-              <h3 class="py-3">¿Qué es la inflación?</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
-                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
-                  <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
-                    Tu navegador no soporta el elemento de video.
-                </div>
-            </div>
-            <div class="container">
-              <h3 class="py-3">¿Qué es el patrimonio neto?</h3>
-              <p>Crear un presupuesto para conocer tus ingresos y tus gastos.</p>
-                <div class="embed-responsive embed-responsive-4by3 mx-auto" style="max-width: 1240px; max-height: 500px;">    
-                  <video class="embed-responsive-item w-100" controls>
-                    <source src="../Videos/crearPresupuesto.mp4" type="video/mp4">
+                    <source src="../Videos/pib.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </div>
             </div>
