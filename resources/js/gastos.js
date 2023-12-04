@@ -84,7 +84,7 @@ function listar() {
             <td>${el.valor}</td>
             <td>${el.fecha_normal}</td>
             <td>
-                    <button type="button" class="btn btn-primary btn-sm editar" data-id= "${el.gasto_id}">Eliminar</button>  
+                    <button type="button" class="btn btn-primary btn-sm editar" data-id= "${el.gasto_id}" data-fecha= "${el.fecha_normal}">Eliminar</button>  
             </td>
             </tr>`
             });
@@ -120,7 +120,8 @@ $("#btnFiltrar").click(function () {
             <td>${el.valor}</td>
             <td>${el.fecha_normal}</td>
             <td>
-                    <button type="button" class="btn btn-primary btn-sm editar" data-id= "${el.gasto_id}">Editar</button>  
+            <button type="button" class="btn btn-primary btn-sm editar" data-id= "${el.gasto_id}" data-fecha= "${el.fecha_normal}">Eliminar</button>  
+
             </td>
             </tr>`
             });
@@ -188,4 +189,45 @@ $('#modCrearReserva').submit(function (e) {
             console.log('Error en la solicitud AJAX: ' + error);
         }
     });
+});
+
+$('body').on('click', '.editar', function () {
+    // Capturar los valores de data-id y data-fecha
+    let id = $(this).data("id");
+    let fechaGasto = new Date($(this).data("fecha") + "T00:00:00");  // Agregar hora para asegurar igualdad
+    let fechaActual = new Date();
+    
+    // Verificar si las fechas son iguales (sin tener en cuenta la hora)
+    if (fechaGasto.toISOString().split('T')[0] === fechaActual.toISOString().split('T')[0]) {
+        console.log('Las fechas son iguales.');
+        let datos = [];
+        datos.push({name:'opcn',value:'update'})
+        datos.push({name:'id',value:id})
+
+        let confirmacion = confirm('¿Estás seguro de borrar este elemento?');
+        if (confirmacion) {
+    $.ajax({
+        url: '../controlador/gastos.php',
+        type: 'POST',
+        dataType: 'json',
+        data: datos,
+    })
+    .done(function(res) {
+        
+
+        listar()
+    })
+    .fail(function() {
+        console.log("error");
+    })  
+}else{
+    return
+}
+
+        // Aquí puedes realizar la lógica para eliminar el gasto.
+    } else {
+        alert('No se puede borrar este gasto. ya que paso el limite de un dia');
+
+        // Aquí puedes mostrar un mensaje de error o realizar otras acciones según tus necesidades.
+    }
 });

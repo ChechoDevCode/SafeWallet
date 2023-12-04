@@ -44,4 +44,20 @@ class Gastos {
         return $resultado; 
     }
 
+    public static function eli($v) {
+        include_once('../config/init_db.php');
+        DB::$encoding = 'utf8';
+        session_start();
+        $ID = $_SESSION['ID'];
+    
+        // Obtén el id del gasto desde $v
+        $idGasto = $v['id'];
+    
+        // Elimina el registro en la tabla gastos
+        $resultado = DB::query("DELETE FROM gastos WHERE  gasto_id  = $idGasto");
+    
+        return $resultado; 
+    }
+    
+
 }

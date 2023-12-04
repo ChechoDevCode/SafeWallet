@@ -20,5 +20,9 @@ switch ($method) {
                 $respuesta = Gastos::menos($_POST);
                 echo json_encode($respuesta);
                 break;
+                case 'update':
+                    $respuesta = Gastos::eli($_POST);
+                    echo json_encode($respuesta);
+                    break;
         }
 }
