@@ -181,8 +181,9 @@ $('#modCrearReserva').submit(function (e) {
 
             // Aquí puedes manejar la respuesta exitosa, como cerrar el modal, mostrar un mensaje, etc.
             $('#modalAgregarReserva').modal('hide');
-            alert('Usuario creado con éxito');
+            alert('Gasto creado con éxito');
             listar();
+            gastos_acu()
         },
         error: function (xhr, status, error) {
             // Maneja errores de la solicitud AJAX
